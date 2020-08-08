@@ -1,0 +1,649 @@
+body{
+    background-color: hsl(270, 20%, 96%);
+    font-size: 13px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* background figures */
+
+.fig-right{
+    height: 42rem;
+    width: 20rem;
+    background-color: hsl(210, 17%, 93%);
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+    border-radius: 800px 0 0 0;   
+}
+
+.fig-left{
+    height: 42rem;
+    width: 27rem;
+    background-image: linear-gradient(to top,  hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    position: absolute;
+    left: -100px;
+    top: 0;
+    right:20px;
+    border-radius: 0 0 250px 250px;  
+    z-index: -1; 
+}
+
+
+/* phone layout */
+
+ .phone{
+
+    left: 200px;
+    top: 85px;
+     position: relative;
+     background-color: hsl(270, 20%, 96%);
+     border:7px solid white;
+     width:300px;
+     height:530px;
+     border-radius: 30px;
+     box-shadow:15px 15px 70px rgb(218, 216, 216); 
+ }
+
+ .notch{
+     position: absolute;
+     z-index: 1;
+     top:100px;
+     left:300px;
+     width:150px;
+     height:20px;
+     border-radius:0 0 20px 20px;
+     background-color: whitesmoke;
+ }
+
+ .person-bar{
+     width:300px;
+     height:75px;
+     border: 7px solid white;
+     border-bottom: 0;
+     background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+     border-radius: 30px 30px 0 0;
+     position: absolute;
+     top:93px;
+     z-index: 0;
+     left:208px;
+ }
+
+ .person{
+     position: absolute;
+     border-radius: 100%;
+     width:40px;
+     height:40px;
+     left:30px;
+     top:25px;
+ }
+
+ .chat1{
+    position: absolute;
+    top: 180px;
+    left: 220px;
+    background-color: hsl(276, 52%, 94%);
+    height: 40px;
+    width: 160px;
+    padding-left: 10px;
+    border-radius: 15px
+ }
+
+ .chat2{
+    position: absolute;
+    top: 225px;
+    left: 220px;
+    background-color: hsl(276, 52%, 94%);
+    height:40px;
+    width: 170px;
+    padding-left: 10px;
+    border-radius: 15px
+ }
+ .dog-image{
+     position:absolute;
+     top:275px;
+     left:320px;
+     display: flex;
+ }
+
+ .dog{
+     position: relative;
+     width:50px;
+     height:50px;
+     padding:0 0 6px 6px;
+     border-radius: 15px;
+ }
+
+.chatbox1{
+    position: absolute;
+    width:190px;
+    height:40px;
+    top:330px;
+    left:320px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.chatbox2{
+    position: absolute;
+    width:130px;
+    height:30px;
+    top:375px;
+    left:380px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+ .chat3{
+     position: absolute;
+     width:190px;
+     height:60px;
+     background-color: hsl(276, 52%, 94%);
+     box-shadow: 5px 4px 13px rgb(221, 220, 220);
+     border-radius: 15px;
+     left:220px;
+     top:410px;
+ }
+
+ .pricing{
+     position: absolute;
+     left:220px;
+     top:470px;
+ }
+ .btn{
+        width: 220px;
+        height:40px;
+        top:465px;
+        border: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        border-radius: 15px;
+        background-image: linear-gradient(to right, hsl(293, 100%, 63%) ,  hsl(264, 100%, 61%));
+ }
+
+ .textbox{
+     position: absolute;
+     top:580px;
+     width:284px;
+     height:40px;
+     background-color: thistle;
+     left:220px;
+     border-radius: 15px;
+ }
+
+.sendbutton{
+    position: absolute;
+    left:262px;
+    width:10px;
+    height:5px;
+    color:white;
+    font-weight: bolder;
+    border-radius: 100%;
+    top:13px;
+}
+
+.sendbuttoncircle{
+    position: absolute;
+    left:250px;
+    width:30px;
+    height:30px;
+    border-radius: 100%;
+    background-color: purple;
+    top:5px;
+}
+
+.circle{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    
+}
+
+.circle1{
+    position: absolute;
+    top: 18px;
+    left: 10px;
+}
+
+.circle2{
+    position: relative;
+    top: 5px;
+    left:3px;
+}
+
+.typing{
+    position: absolute;
+    color: #fff;
+    top:0px;
+    left:10px;
+}
+
+h1{
+    position: absolute;
+    top: 230px;
+    left: 840px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: hsl(271, 36%, 24%);
+}
+
+.text-description{
+    position: absolute;
+    top: 340px;
+    left: 840px;
+    font-size: 1.5rem;
+    width: 29%;
+    line-height: 2rem;
+    color: hsl(270, 7%, 64%);
+    text-align: left;
+}
+
+/* repositioning text and miscellaneous*/
+/* stytling person-bar*/
+
+.name{
+    position: relative;
+    left:80px;
+    top:10px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.walk{
+    position: relative;
+    left:80px;
+    top:1px; 
+    color: #fff;
+    font-size: 10px;
+}
+
+h3{
+    position: absolute;
+    top:20px;
+    left:10px;
+    color:#fff;
+}
+
+.dots{
+    position:absolute;
+    top:23px;
+    color:#fff;
+    left:280px;
+}
+
+/* chat text and styling */ 
+
+.c1{
+    position: relative;
+    bottom: 7px;
+}
+.c2{
+    
+    position: relative;
+    bottom: 9px;
+}
+
+.cr1{
+    position: relative;
+    bottom:7px;
+    left:5px;
+}
+
+.cr2{
+    position: relative;
+    bottom:7px;
+    left:10px;
+}
+
+.c3{
+    position: relative;
+    bottom:7px;
+    left:5px;
+}
+
+.time1{
+    position: relative;
+    bottom:3px;
+    left:40px;
+    color:#fff;
+    font-size: 12px;
+}
+
+.time2{
+    position: relative;
+    bottom:3px;
+    left:20px;
+    color:#fff;
+    font-size: 12px;
+}
+
+.rate{
+    position: relative;
+    bottom:8px;
+    left:90px;
+    color:#fff;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+p{
+   color: hsl(267, 5%, 34%);
+}
+
+   /* for mobile view*/
+
+@media only screen and (max-width:375px){
+    .fig-right{
+        position: absolute;
+        left:300px;
+        height: 65em;
+        width: 400px;
+        }
+    
+    .fig-left{
+        border-radius: 0 0 800px 0;
+        height: 65em;
+        width: 400px;
+    }
+    
+    
+    /* phone layout */
+    
+     .phone{
+        border: 8px solid white;
+        top: 130px;
+        left: 210px;
+        height: 510px;
+        width: 280px;
+        border-radius: 50px;
+     }  
+
+     .notch{
+         position: absolute;
+         z-index: 1;
+         top:117px;
+         left:320px;
+         width:100px;
+         height:20px;
+         border-radius:0 0 20px 20px;
+         background-color: whitesmoke;
+     }
+    
+     .person-bar{
+         width:282px;
+         height:68px;
+         border: 7px solid white;
+         border-bottom: 0;
+         background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+         border-radius: 30px 30px 0 0;
+         position: absolute;
+         top:110px;
+         z-index: 0;
+         left:218px;
+     }
+    
+     .person{
+         position: absolute;
+         border-radius: 100%;
+         width:40px;
+         height:40px;
+         left:30px;
+         top:25px;
+     }
+    
+     .chat1{
+        position: absolute;
+        top: 190px;
+        left: 230px;
+        background-color: hsl(276, 52%, 94%);
+        height: 40px;
+        width: 160px;
+        padding-left: 10px;
+        border-radius: 15px
+     }
+    
+     .chat2{
+        position: absolute;
+        top: 235px;
+        left: 230px;
+        background-color: hsl(276, 52%, 94%);
+        height:40px;
+        width: 170px;
+        padding-left: 10px;
+        border-radius: 15px
+     }
+     .dog-image{
+         position:absolute;
+         top:285px;
+         left:320px;
+         display: flex;
+     }
+    
+     .dog{
+         position: relative;
+         width:50px;
+         height:50px;
+         padding:0 0 6px 6px;
+         border-radius: 15px;
+     }
+    
+    .chatbox1{
+        position: absolute;
+        width:190px;
+        height:40px;
+        top:340px;
+        left:310px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .chatbox2{
+        position: absolute;
+        width:130px;
+        height:30px;
+        top:385px;
+        left:370px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+     .chat3{
+         position: absolute;
+         width:220px;
+         height:60px;
+         background-color: hsl(276, 52%, 94%);
+         box-shadow: 5px 4px 13px rgb(221, 220, 220);
+         border-radius: 15px;
+         left:230px;
+         top:420px;
+     }
+    
+     .pricing{
+         position: absolute;
+         left:230px;
+         top:480px;
+     }
+     .btn{
+            width: 220px;
+            height:40px;
+            top:465px;
+            border: 0;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            border-radius: 15px;
+            background-image: linear-gradient(to right, hsl(293, 100%, 63%) ,  hsl(264, 100%, 61%));
+     }
+    
+     .textbox{
+         position: absolute;
+         top:600px;
+         width:230px;
+         height:40px;
+         background-color: thistle;
+         left:235px;
+         border-radius: 30px;
+     }
+    
+    .sendbutton{
+        position: absolute;
+        left:247px;
+        width:10px;
+        height:5px;
+        color:white;
+        font-weight: bolder;
+        border-radius: 100%;
+        top:13px;
+    }
+    
+    .sendbuttoncircle{
+        position: absolute;
+        left:235px;
+        width:30px;
+        height:30px;
+        border-radius: 100%;
+        background-color: purple;
+        top:5px;
+    }
+    
+    .circle{
+        width: 16px;
+        height: 16px;
+        border-radius: 100%;
+        border: 3px solid #fff;
+        
+    }
+    
+    .circle1{
+        position: absolute;
+        top: 18px;
+        left: 10px;
+    }
+    
+    .circle2{
+        position: relative;
+        top: 5px;
+        left:3px;
+    }
+    
+    .typing{
+        position: absolute;
+        color: #fff;
+        top:0px;
+        left:10px;
+    }
+    
+    h1{
+        position: relative;
+        top:350px;
+        left:220px;
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: hsl(271, 36%, 24%);
+    }
+    
+    .text-description{
+        position: relative;
+        text-align: center;
+        width:400px;
+        left: 170px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: hsl(270, 7%, 64%);
+    }
+    
+    /* repositioning text and miscellaneous*/
+    /* stytling person-bar*/
+    
+    .name{
+        position: relative;
+        left:80px;
+        top:10px;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+    }
+    
+    .walk{
+        position: relative;
+        left:80px;
+        top:1px; 
+        color: #fff;
+        font-size: 10px;
+    }
+    
+    h3{
+        position: absolute;
+        top:20px;
+        left:10px;
+        color:#fff;
+    }
+    
+    .dots{
+        position:absolute;
+        top:23px;
+        color:#fff;
+        left:280px;
+    }
+    
+    /* chat text and styling */ 
+    
+    .c1{
+        position: relative;
+        bottom: 7px;
+    }
+    .c2{
+        
+        position: relative;
+        bottom: 9px;
+    }
+    
+    .cr1{
+        position: relative;
+        bottom:7px;
+        left:5px;
+    }
+    
+    .cr2{
+        position: relative;
+        bottom:7px;
+        left:10px;
+    }
+    
+    .c3{
+        position: relative;
+        bottom:7px;
+        left:5px;
+    }
+    
+    .time1{
+        position: relative;
+        bottom:3px;
+        left:40px;
+        color:#fff;
+        font-size: 12px;
+    }
+    
+    .time2{
+        position: relative;
+        bottom:3px;
+        left:20px;
+        color:#fff;
+        font-size: 12px;
+    }
+    
+    .rate{
+        position: relative;
+        bottom:8px;
+        left:90px;
+        color:#fff;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    
+    p{
+       color: hsl(267, 5%, 34%);
+    }
+}
